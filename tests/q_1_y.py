@@ -8,16 +8,14 @@ test = {
         {
           'code': r"""
           >>> # You need to set the value for 'y'
-          >>> 'y' in vars()
-          True
+          >>> assert 'y' in vars()
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> y == "That's right"
-          True
+          >>> assert y == "That's right"
           """,
           'hidden': False,
           'locked': False

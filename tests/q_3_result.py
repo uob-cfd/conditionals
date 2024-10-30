@@ -8,16 +8,14 @@ test = {
         {
           'code': r"""
           >>> # pou need to set the value for 'result'
-          >>> 'result' in vars()
-          True
+          >>> assert 'result' in vars()
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> result == 'a divided by 6 is 4'
-          True
+          >>> assert result == 'a divided by 6 is 4'
           """,
           'hidden': False,
           'locked': False

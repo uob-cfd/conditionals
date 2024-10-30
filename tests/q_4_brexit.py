@@ -47,8 +47,7 @@ test = {
         },
         {
           'code': r"""
-          >>> choose_paper('remain') is None
-          True
+          >>> assert choose_paper('remain') is None
           """,
           'hidden': False,
           'locked': False

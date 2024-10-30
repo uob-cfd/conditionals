@@ -8,16 +8,14 @@ test = {
         {
           'code': r"""
           >>> # pou need to set the value for 'p'
-          >>> 'p' in vars()
-          True
+          >>> assert 'p' in vars()
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> p == -8
-          True
+          >>> assert p == -8
           """,
           'hidden': False,
           'locked': False
